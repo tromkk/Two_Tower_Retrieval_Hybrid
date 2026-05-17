@@ -1,0 +1,13 @@
+data/
+data/glove.6B.200d.txt
+artifacts/
+scratch/
+.env
+.devcontainer
+wandb/
+backend/__pycache__
+venv/
+frontend/chroma_store
+.DS_Store
+frontend/__pycache__
+~
