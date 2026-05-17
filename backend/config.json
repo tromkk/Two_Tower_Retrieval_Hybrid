@@ -1,0 +1,25 @@
+{
+    "TRAIN_DATASET_PATH": "data/ms_marco_train.parquet",
+    "VAL_DATASET_PATH": "data/ms_marco_validation.parquet",
+    "TEST_DATASET_PATH": "data/ms_marco_test.parquet",
+    "EMBEDDINGS_PATH": "data/embeddings.npy",
+    "WORD_TO_IDX_PATH": "data/word_to_idx.pkl",
+
+    
+    "SUBSAMPLE_RATIO": 0.005,
+    "NUM_TRIPLETS_PER_QUERY": 1,
+    "TRAINING_MODE": "retrieval",
+    
+    "HIDDEN_DIM": 256,
+    "RNN_TYPE": "GRU",
+    "NUM_LAYERS": 2,
+    "BIDIRECTIONAL": true,
+    "DROPOUT": 0.2,
+    
+    "BATCH_SIZE": 64,
+    "EPOCHS": 1,
+    "LR": 0.00005,
+    
+    "MARGIN": 0.5,
+    "NORMALIZE_OUTPUT": true
+} 
